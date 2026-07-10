@@ -28,10 +28,45 @@
     <link rel="stylesheet" href="Styles/output.css" />
   </head>
   <body>
-    <!-- Main Container -->
-    <div
-      class="flex flex-col justify-center items-center --font-heading bg-amber-100 font-medium min-h-screen capitalize"
-    ></div>
-    <!-- Main Container close-->
+    <!-- Hero -->
+    <section
+      id="hero"
+      class="bg-mobile-hero bg-contain bg-no-repeat md:bg-hero md:bg-contain md:bg-no-repeat"
+    >
+      <div class="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
+        <img src="/src/images/logo.svg" alt="" class="mx-auto my-16" />
+        <h3
+          class="mb-8 text-4xl font-medium font-heading text-dark-grayish-blue md:text-5xl"
+        >
+          A history of everything you copy
+        </h3>
+        <p class="mx-w-3xl mx-auto mb-10 text-xl text-dark-grayish-blue">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+
+        <!-- Button Container-->
+        <div
+          class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4"
+        >
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-strong-cyan duration-200 transition hover:bg-strong-cyan/80 md:w-72"
+          >
+            Download for ios
+          </a>
+
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-light-blue duration-200 transition hover:bg-light-blue/80 md:w-72"
+          >
+            Download for windows
+          </a>
+        </div>
+        <!-- Button container end -->
+      </div>
+      <!-- Hero div -->
+    </section>
+    <!-- Hero close-->
   </body>
 </html>
